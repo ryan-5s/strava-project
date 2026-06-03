@@ -17,5 +17,4 @@ Measurements of temperature, humidity, and distance are accessed on their impact
 ### visualizing_runs.py
 - Basic plots for comparison between pace and factors of temperature, humidity, and distance
 <img width="1265" height="956" alt="image" src="https://github.com/user-attachments/assets/98d00d87-1e3b-40f9-98cc-081ae1560e92" />
-<img width="1938" height="1326" alt="image" src="https://github.com/user-attachments/assets/3dc1ee88-3544-4bab-95aa-ab62455c118a" />
-### 
+<img width="2008" height="1351" alt="image" src="https://github.com/user-attachments/assets/88e94863-e312-4406-b086-dd730741408a" />
