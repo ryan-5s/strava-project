@@ -27,6 +27,7 @@ Measurements of temperature, humidity, and distance are accessed on their impact
 - Find R squared values for every model and output
 - For the linear regression model, plot the different variables and pace
 <img width="2347" height="1519" alt="image" src="https://github.com/user-attachments/assets/51511350-d720-4be7-adb1-8159718ff08e" />
+
 - Show a heat map of the correlations between each parameter and pace to determine what is and isn't significant
 <img width="2497" height="1478" alt="image" src="https://github.com/user-attachments/assets/09dce6bc-5ea1-4b36-981c-5cc89511ba5b" />
 
@@ -39,3 +40,6 @@ Measurements of temperature, humidity, and distance are accessed on their impact
 - Take user input of distance in miles
 - Load the model using joblib
 - Use model to predict pace and output
+
+## Findings
+As shown by the correlation heat map, the correlation between distance and pace is much more significant than temperature and humidity. Also shown by the models for my data, the models of degree 4 have similar error of 29 seconds for distance and temperature, humidity, and distance. However, the R squared value are close at 0.438 vs. 0.446, with the distance-only model having the higher R squared value. According to the law of Occam's razor, the simpler model with less parameters is chosen, which lead to the use of the distance-only model. This is most liekly due to not enough variation in tmeperature and humidity to draw a correlation for the models. 
